@@ -319,14 +319,15 @@
 
 .membership__steps {
   list-style-type: none;
-  padding: 40px;
-  margin: 100px 10% 10%;
+  /*padding: 40px;*/
+  padding: 0;
+  /*margin: 100px 10% 10%;*/
+  margin:100px 0 0;
   display: flex;
   border: 2px solid #fff;
   justify-content: center;
   gap:40px;
-  box-sizing: border-box;
-  
+    
 }
 
 .step {
@@ -357,6 +358,7 @@
   box-sizing: border-box;
   padding:60px 80px;
   background-color: #1f1f1f;
+  color: #fff;
 }
 
 .footer__columns {
@@ -367,12 +369,12 @@
 
 .footer__column_content_hours {
   
-  color: #fff;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin-left: 0;
-  color: #fff;
+  margin-left: 80px;
+  
 }
 
 .footer__logo {
