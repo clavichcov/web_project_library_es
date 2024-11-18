@@ -46,10 +46,10 @@
   font-weight: bold;
 }
 
-.nav__link:hover{
+/*.nav__link:hover{
   color: #466eb2;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+}*/
 
 .header__content {
   display: flex;
